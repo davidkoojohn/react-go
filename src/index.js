@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/style/index.css';
-import Hello from './components/hello';
+import Hello from './components/hello/index';
 import registerServiceWorker from './startup/registerServiceWorker';
 
 class App extends React.Component {
@@ -9,15 +9,10 @@ class App extends React.Component {
     return (
       <div className="wrap-component">
         <Hello name="koo"/>
-        <Hello name="koo"/>
-        <Hello name="koo"/>
-        <Hello name="koo"/>
       </div>
     )
   }
 }
-
-
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
