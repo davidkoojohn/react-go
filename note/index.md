@@ -7,6 +7,6 @@
 * [表单](./form.md)
 * [状态提升](./state-up.md)
 * [组合 vs 继承](composition.md)
-
+* [React 理念](https://doc.react-china.org/docs/thinking-in-react.html)
 
 
